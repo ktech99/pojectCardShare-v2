@@ -77,7 +77,7 @@ extension BeerDetailViewController {
     }
     
     let activityViewController = UIActivityViewController(
-      activityItems: ["Check out this beer I liked using Beer Tracker.", url],
+      activityItems: ["Here, you can have this business .", url],
       applicationActivities: nil)
     if let popoverPresentationController = activityViewController.popoverPresentationController {
       popoverPresentationController.barButtonItem = (sender as! UIBarButtonItem)
